@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wakizashi Exam
+* source:	https://sketchfab.com/3d-models/wakizashi-exam-67ac311d351f42d2802727e32075ff4c
+* author:	AlessandroFortuna (https://sketchfab.com/AlessandroFortuna)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wakizashi Exam" (https://sketchfab.com/3d-models/wakizashi-exam-67ac311d351f42d2802727e32075ff4c) by AlessandroFortuna (https://sketchfab.com/AlessandroFortuna) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
