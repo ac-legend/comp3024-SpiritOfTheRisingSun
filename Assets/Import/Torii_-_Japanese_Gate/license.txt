@@ -1,0 +1,11 @@
+Model Information:
+* title:	Torii - Japanese Gate
+* source:	https://sketchfab.com/3d-models/torii-japanese-gate-32f0cae137064c4da4c8136bc0ff2f2d
+* author:	Deerex 🦖 (https://sketchfab.com/darrencontreras)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Torii - Japanese Gate" (https://sketchfab.com/3d-models/torii-japanese-gate-32f0cae137064c4da4c8136bc0ff2f2d) by Deerex 🦖 (https://sketchfab.com/darrencontreras) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

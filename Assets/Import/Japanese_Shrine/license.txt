@@ -1,0 +1,11 @@
+Model Information:
+* title:	Japanese Shrine
+* source:	https://sketchfab.com/3d-models/japanese-shrine-c52f0f2e9e3e49688a835daaa1904a35
+* author:	ArunIniyan (https://sketchfab.com/Arun_Iniyan)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Japanese Shrine" (https://sketchfab.com/3d-models/japanese-shrine-c52f0f2e9e3e49688a835daaa1904a35) by ArunIniyan (https://sketchfab.com/Arun_Iniyan) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

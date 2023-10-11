@@ -1,0 +1,11 @@
+Model Information:
+* title:	Torii Gate
+* source:	https://sketchfab.com/3d-models/torii-gate-2ab1ec3c8a3c4d8b9a709678f584033b
+* author:	Screwdriver1337 (https://sketchfab.com/screwdriver1337)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Torii Gate" (https://sketchfab.com/3d-models/torii-gate-2ab1ec3c8a3c4d8b9a709678f584033b) by Screwdriver1337 (https://sketchfab.com/screwdriver1337) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

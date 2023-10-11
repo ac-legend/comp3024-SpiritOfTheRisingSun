@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tree Pink FBX
+* source:	https://sketchfab.com/3d-models/tree-pink-fbx-608c1f7f0ce04a09a1b0940b73ac722b
+* author:	nhutanhso (https://sketchfab.com/nhutanhso)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tree Pink FBX" (https://sketchfab.com/3d-models/tree-pink-fbx-608c1f7f0ce04a09a1b0940b73ac722b) by nhutanhso (https://sketchfab.com/nhutanhso) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
