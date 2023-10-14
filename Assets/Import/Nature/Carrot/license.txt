@@ -1,0 +1,11 @@
+Model Information:
+* title:	Carrot
+* source:	https://sketchfab.com/3d-models/carrot-755fb8b9ca6c4faf894bf75d71501b8c
+* author:	HiItsSterre (https://sketchfab.com/HiItsSterre)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Carrot" (https://sketchfab.com/3d-models/carrot-755fb8b9ca6c4faf894bf75d71501b8c) by HiItsSterre (https://sketchfab.com/HiItsSterre) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

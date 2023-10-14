@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rice Plant
+* source:	https://sketchfab.com/3d-models/rice-plant-be6aa4ac9adc4f558cc789a0baed8ae3
+* author:	eskastefani (https://sketchfab.com/eskastefani)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rice Plant" (https://sketchfab.com/3d-models/rice-plant-be6aa4ac9adc4f558cc789a0baed8ae3) by eskastefani (https://sketchfab.com/eskastefani) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
