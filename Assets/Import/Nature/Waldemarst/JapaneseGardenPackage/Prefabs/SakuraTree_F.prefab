@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5752105476961817693}
   - component: {fileID: 8976102599066158350}
+  - component: {fileID: 8313078188031562677}
   m_Layer: 0
   m_Name: SakuraTree_F
   m_TagString: Untagged
@@ -62,6 +63,29 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2682955983252453909}
   m_Enabled: 1
+--- !u!136 &8313078188031562677
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4936680397356055064}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.7
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.6, z: 0}
 --- !u!1 &6320093931236580072
 GameObject:
   m_ObjectHideFlags: 0
