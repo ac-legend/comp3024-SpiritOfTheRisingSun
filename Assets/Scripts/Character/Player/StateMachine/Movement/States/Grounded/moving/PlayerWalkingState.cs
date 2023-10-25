@@ -1,6 +1,6 @@
 using UnityEngine.InputSystem;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public class PlayerWalkingState : PlayerMovingState
     {
@@ -39,7 +39,7 @@ namespace GenshinImpactMovementSystem
 
         protected override void OnMovementCanceled(InputAction.CallbackContext context)
         {
-            stateMachine.ChangeState(stateMachine.LightStoppingState);
+            stateMachine.ChangeState(stateMachine.IdlingState);
 
             base.OnMovementCanceled(context);
         }

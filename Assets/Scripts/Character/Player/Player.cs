@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     [RequireComponent(typeof(PlayerInput))]
     [RequireComponent(typeof(PlayerResizableCapsuleCollider))]

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public class PlayerStateReusableData
     {
@@ -16,6 +16,9 @@ namespace GenshinImpactMovementSystem
 
         public bool ShouldWalk { get; set; }
         public bool ShouldSprint { get; set; }
+        public bool ShouldDrawWeapon { get; set; }
+        public bool ShouldAttack1 { get; set; }
+        public bool ShouldAttack2 { get; set; }
 
         private Vector3 currentTargetRotation;
         private Vector3 timeToReachTargetRotation;

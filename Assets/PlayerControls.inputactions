@@ -51,21 +51,39 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Dash",
-                    "type": "Button",
-                    "id": "93012563-9298-4eb1-a113-3e32dc31ec71",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Sprint",
                     "type": "Button",
                     "id": "afc3f6eb-81ed-4f36-84d7-3f203391cb2d",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Hold(duration=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DrawWeapon",
+                    "type": "Button",
+                    "id": "b21014d2-6666-4335-a35e-c6aa27e998a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack1",
+                    "type": "Button",
+                    "id": "2a3d4575-a447-49ec-bda3-36a3d377b66d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack2",
+                    "type": "Button",
+                    "id": "c2071df9-deb9-4025-9571-697ab86a0752",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
                     "initialStateCheck": false
                 }
             ],
@@ -171,7 +189,7 @@
                 },
                 {
                     "name": "",
-                    "id": "76edd459-2b2b-4231-8427-d4d32f245779",
+                    "id": "db90a644-2acf-45ce-9f4b-15e7b1db3390",
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
                     "processors": "",
@@ -182,34 +200,34 @@
                 },
                 {
                     "name": "",
-                    "id": "6cb5e11b-9e9e-40f6-bc9c-54a9ed1f89a2",
-                    "path": "<Mouse>/rightButton",
+                    "id": "8c8f35f6-c810-4a39-bb22-b712d7b3a484",
+                    "path": "<Keyboard>/r",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Sprint",
+                    "action": "DrawWeapon",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "4c454c86-984f-4ca2-9dca-edd7e9a714dd",
-                    "path": "<Keyboard>/leftShift",
-                    "interactions": "",
+                    "id": "be53feef-3abe-469c-97d6-0e748641e3e7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
-                    "action": "Dash",
+                    "action": "Attack1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "70d06aee-61f5-4894-b5d0-097e94fedfcc",
+                    "id": "b6cc73d5-6b6a-45c9-b9ef-176b3a404751",
                     "path": "<Mouse>/rightButton",
-                    "interactions": "",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
-                    "action": "Dash",
+                    "action": "Attack2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

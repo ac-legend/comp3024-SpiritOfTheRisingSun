@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public class PlayerJumpingState : PlayerAirborneState
     {
@@ -50,7 +50,7 @@ namespace GenshinImpactMovementSystem
                 return;
             }
 
-            stateMachine.ChangeState(stateMachine.FallingState);
+            stateMachine.ChangeState(stateMachine.IdlingState);
         }
 
         public override void PhysicsUpdate()

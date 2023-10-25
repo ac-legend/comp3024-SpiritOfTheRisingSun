@@ -1,7 +1,7 @@
 using Cinemachine;
 using UnityEngine;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public class CameraZoom : MonoBehaviour
     {

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public class PlayerMovementState : IState
     {
@@ -104,12 +104,17 @@ namespace GenshinImpactMovementSystem
 
         protected void StopAnimation(int animationHash)
         {
-            stateMachine.Player.Animator.SetBool(animationHash, false);
+             stateMachine.Player.Animator.SetBool(animationHash, false);
         }
 
         protected virtual void AddInputActionsCallbacks()
         {
             stateMachine.Player.Input.PlayerActions.WalkToggle.started += OnWalkToggleStarted;
+            stateMachine.Player.Input.PlayerActions.Sprint.started += OnSprintStarted;
+
+            stateMachine.Player.Input.PlayerActions.DrawWeapon.started += OnDrawWeaponTriggered;
+            stateMachine.Player.Input.PlayerActions.Attack1.started += OnAttack1Triggered;
+            stateMachine.Player.Input.PlayerActions.Attack2.started += OnAttack2Triggered;
 
             stateMachine.Player.Input.PlayerActions.Look.started += OnMouseMovementStarted;
 
@@ -120,6 +125,11 @@ namespace GenshinImpactMovementSystem
         protected virtual void RemoveInputActionsCallbacks()
         {
             stateMachine.Player.Input.PlayerActions.WalkToggle.started -= OnWalkToggleStarted;
+            stateMachine.Player.Input.PlayerActions.Sprint.started -= OnSprintStarted;
+
+            stateMachine.Player.Input.PlayerActions.DrawWeapon.started -= OnDrawWeaponTriggered;
+            stateMachine.Player.Input.PlayerActions.Attack1.started -= OnAttack1Triggered;
+            stateMachine.Player.Input.PlayerActions.Attack2.started -= OnAttack2Triggered;
 
             stateMachine.Player.Input.PlayerActions.Look.started -= OnMouseMovementStarted;
 
@@ -127,9 +137,45 @@ namespace GenshinImpactMovementSystem
             stateMachine.Player.Input.PlayerActions.Movement.canceled -= OnMovementCanceled;
         }
 
+        protected virtual void OnDrawWeaponTriggered(InputAction.CallbackContext context)
+        {
+            stateMachine.ReusableData.ShouldDrawWeapon = !stateMachine.ReusableData.ShouldDrawWeapon;
+            if (stateMachine.ReusableData.ShouldDrawWeapon)
+            {
+                stateMachine.Player.Animator.SetTrigger("drawWeapon");
+            }
+            stateMachine.Player.Animator.SetBool("sheathWeapon", !stateMachine.ReusableData.ShouldDrawWeapon);
+        }
+
+        protected virtual void OnAttack1Triggered(InputAction.CallbackContext context)
+        {
+            if (stateMachine.ReusableData.ShouldDrawWeapon)
+            {
+                    stateMachine.Player.Animator.SetTrigger("Attack1");
+                    stateMachine.Player.Animator.SetBool("isIdling", true);
+            }
+        }
+
+        protected virtual void OnAttack2Triggered(InputAction.CallbackContext context)
+        {
+            if (stateMachine.ReusableData.ShouldDrawWeapon)
+            {
+                if (stateMachine.ReusableData.ShouldDrawWeapon)
+                {
+                    stateMachine.Player.Animator.SetTrigger("Attack2");
+                    stateMachine.Player.Animator.SetBool("isIdling", true);
+                }
+            }
+        }
+
         protected virtual void OnWalkToggleStarted(InputAction.CallbackContext context)
         {
             stateMachine.ReusableData.ShouldWalk = !stateMachine.ReusableData.ShouldWalk;
+        }
+
+        protected virtual void OnSprintStarted(InputAction.CallbackContext context)
+        {
+            stateMachine.ReusableData.ShouldSprint = !stateMachine.ReusableData.ShouldSprint;
         }
 
         private void OnMouseMovementStarted(InputAction.CallbackContext context)
@@ -156,6 +202,7 @@ namespace GenshinImpactMovementSystem
         {
             if (stateMachine.ReusableData.MovementInput == Vector2.zero || stateMachine.ReusableData.MovementSpeedModifier == 0f)
             {
+                stateMachine.Player.Animator.SetFloat("speed", 0f);
                 return;
             }
 
@@ -170,6 +217,8 @@ namespace GenshinImpactMovementSystem
             Vector3 currentPlayerHorizontalVelocity = GetPlayerHorizontalVelocity();
 
             stateMachine.Player.Rigidbody.AddForce(targetRotationDirection * movementSpeed - currentPlayerHorizontalVelocity, ForceMode.VelocityChange);
+
+            stateMachine.Player.Animator.SetFloat("speed", Mathf.Abs(stateMachine.Player.Rigidbody.velocity.x));
         }
 
         protected Vector3 GetMovementInputDirection()

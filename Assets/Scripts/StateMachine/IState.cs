@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public interface IState
     {

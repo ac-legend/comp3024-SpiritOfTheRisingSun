@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     [Serializable]
     public class PlayerLayerData

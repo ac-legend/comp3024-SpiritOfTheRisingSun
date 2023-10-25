@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public class PlayerGroundedState : PlayerMovementState
     {
@@ -99,8 +99,6 @@ namespace GenshinImpactMovementSystem
         {
             base.AddInputActionsCallbacks();
 
-            stateMachine.Player.Input.PlayerActions.Dash.started += OnDashStarted;
-
             stateMachine.Player.Input.PlayerActions.Jump.started += OnJumpStarted;
         }
 
@@ -108,14 +106,7 @@ namespace GenshinImpactMovementSystem
         {
             base.RemoveInputActionsCallbacks();
 
-            stateMachine.Player.Input.PlayerActions.Dash.started -= OnDashStarted;
-
             stateMachine.Player.Input.PlayerActions.Jump.started -= OnJumpStarted;
-        }
-
-        protected virtual void OnDashStarted(InputAction.CallbackContext context)
-        {
-            stateMachine.ChangeState(stateMachine.DashingState);
         }
 
         protected virtual void OnJumpStarted(InputAction.CallbackContext context)
@@ -172,7 +163,7 @@ namespace GenshinImpactMovementSystem
 
         protected virtual void OnFall()
         {
-            stateMachine.ChangeState(stateMachine.FallingState);
+            stateMachine.ChangeState(stateMachine.IdlingState);
         }
 
         protected override void OnMovementPerformed(InputAction.CallbackContext context)

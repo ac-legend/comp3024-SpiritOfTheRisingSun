@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public class PlayerAirborneState : PlayerMovementState
     {
@@ -31,7 +31,7 @@ namespace GenshinImpactMovementSystem
 
         protected override void OnContactWithGround(Collider collider)
         {
-            stateMachine.ChangeState(stateMachine.LightLandingState);
+            stateMachine.ChangeState(stateMachine.IdlingState);
         }
     }
 }

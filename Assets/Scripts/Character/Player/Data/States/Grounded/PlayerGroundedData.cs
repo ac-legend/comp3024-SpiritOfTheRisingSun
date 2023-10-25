@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     [Serializable]
     public class PlayerGroundedData
@@ -14,11 +14,8 @@ namespace GenshinImpactMovementSystem
         [field: SerializeField] public List<PlayerCameraRecenteringData> BackwardsCameraRecenteringData { get; private set; }
         [field: SerializeField] public PlayerRotationData BaseRotationData { get; private set; }
         [field: SerializeField] public PlayerIdleData IdleData { get; private set; }
-        [field: SerializeField] public PlayerDashData DashData { get; private set; }
         [field: SerializeField] public PlayerWalkData WalkData { get; private set; }
         [field: SerializeField] public PlayerRunData RunData { get; private set; }
         [field: SerializeField] public PlayerSprintData SprintData { get; private set; }
-        [field: SerializeField] public PlayerStopData StopData { get; private set; }
-        [field: SerializeField] public PlayerRollData RollData { get; private set; }
     }
 }

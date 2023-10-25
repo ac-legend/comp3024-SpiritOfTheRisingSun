@@ -1,4 +1,4 @@
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public class PlayerMovingState : PlayerGroundedState
     {

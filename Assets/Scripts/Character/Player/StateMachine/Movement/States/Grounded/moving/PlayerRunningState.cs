@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace GenshinImpactMovementSystem
+namespace SpiritOfTheRisingSunMovementSystem
 {
     public class PlayerRunningState : PlayerMovingState
     {
@@ -52,7 +52,7 @@ namespace GenshinImpactMovementSystem
         {
             if (stateMachine.ReusableData.MovementInput == Vector2.zero)
             {
-                stateMachine.ChangeState(stateMachine.IdlingState);
+                //stateMachine.ChangeState(stateMachine.IdlingState);
 
                 return;
             }
@@ -69,7 +69,7 @@ namespace GenshinImpactMovementSystem
 
         protected override void OnMovementCanceled(InputAction.CallbackContext context)
         {
-            stateMachine.ChangeState(stateMachine.MediumStoppingState);
+            stateMachine.ChangeState(stateMachine.IdlingState);
 
             base.OnMovementCanceled(context);
         }
