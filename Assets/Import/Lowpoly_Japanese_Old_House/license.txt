@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lowpoly Japanese Old House
+* source:	https://sketchfab.com/3d-models/lowpoly-japanese-old-house-a22cf3378c6741ca892f53c6ddf2756c
+* author:	makinwhat (https://sketchfab.com/makinwhat)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lowpoly Japanese Old House" (https://sketchfab.com/3d-models/lowpoly-japanese-old-house-a22cf3378c6741ca892f53c6ddf2756c) by makinwhat (https://sketchfab.com/makinwhat) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6993308252469840959}
   - component: {fileID: 3384468862407377789}
   - component: {fileID: 3156394350826263655}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LamaLOWpoly_LAMAMETAL_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1575853614364172133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RootNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7143690500119445254}
   - component: {fileID: 6497121693800300097}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DamageDealer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 6498997791152331735}
   - component: {fileID: 3691470455550956545}
   - component: {fileID: 7743956597737551589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ManicoLOW_ManicoMETAL_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7107931102703958297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sketchfab_model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 692945997935987016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wakizashi_Exam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 3711307804537376234}
   - component: {fileID: 5797407986208423752}
   - component: {fileID: 7824774602137262491}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ManicoLOW_ManicoTessuto_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 5036241124820302372}
   - component: {fileID: 1718445517069488260}
   - component: {fileID: 8624946231695776967}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BezierCurve_ManicoTessuto_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8585621735074413657}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ManicoLOW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 863445937043993993}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LamaLOWpoly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,7 +552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1548379889962586001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 5703174e358d4809905980815b04223d.fbx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1831008030564444505}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BezierCurve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,7 +616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1764540111828130429}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TsubaLOW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 4174900236622442455}
   - component: {fileID: 6019834136101647902}
   - component: {fileID: 5528668871763475842}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TsubaLOW_ManicoMETAL_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

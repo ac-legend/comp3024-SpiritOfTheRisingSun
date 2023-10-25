@@ -1,0 +1,11 @@
+Model Information:
+* title:	Weapon Rack with Spears
+* source:	https://sketchfab.com/3d-models/weapon-rack-with-spears-048a4482c3e848b5851aa7c8b9b7fa16
+* author:	matthewbenjamin (https://sketchfab.com/matthewbenjamin)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Weapon Rack with Spears" (https://sketchfab.com/3d-models/weapon-rack-with-spears-048a4482c3e848b5851aa7c8b9b7fa16) by matthewbenjamin (https://sketchfab.com/matthewbenjamin) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

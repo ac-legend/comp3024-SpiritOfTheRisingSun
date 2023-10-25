@@ -1,0 +1,11 @@
+Model Information:
+* title:	Teatable
+* source:	https://sketchfab.com/3d-models/teatable-4a56b185cc594c4f830776f3ae339229
+* author:	yedr2017 (https://sketchfab.com/yedr2017)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Teatable" (https://sketchfab.com/3d-models/teatable-4a56b185cc594c4f830776f3ae339229) by yedr2017 (https://sketchfab.com/yedr2017) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

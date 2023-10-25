@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GameBuffs.FreeRealisticTextures
 {
-    [InitializeOnLoad]
+    //[InitializeOnLoad]
     public static class GameBuffsInitializer
     {
         private const string PACKAGE_VERSION = "1.2.0";
@@ -16,13 +16,13 @@ namespace GameBuffs.FreeRealisticTextures
         /// </summary>
         static GameBuffsInitializer()
         {
-            var initializedFreeTextures = EditorPrefs.GetBool(GameBuffsInitializedPackagePrefKey, false);
-            if (!initializedFreeTextures)
-            {
-                EditorPrefs.SetBool(GameBuffsInitializedPackagePrefKey, true);
+           // var initializedFreeTextures = EditorPrefs.GetBool(GameBuffsInitializedPackagePrefKey, false);
+           // if (!initializedFreeTextures)
+            //{
+            //    EditorPrefs.SetBool(GameBuffsInitializedPackagePrefKey, true);
 
                 OpenMegapackUrl();
-            }
+          //  }
         }
 
         /// <summary>

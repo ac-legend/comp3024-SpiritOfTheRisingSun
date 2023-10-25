@@ -1,0 +1,11 @@
+Model Information:
+* title:	Katana with a case on the rack
+* source:	https://sketchfab.com/3d-models/katana-with-a-case-on-the-rack-50045b8634594b56bc78f1534b79d862
+* author:	Konstantin Poloz (https://sketchfab.com/poloz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Katana with a case on the rack" (https://sketchfab.com/3d-models/katana-with-a-case-on-the-rack-50045b8634594b56bc78f1534b79d862) by Konstantin Poloz (https://sketchfab.com/poloz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

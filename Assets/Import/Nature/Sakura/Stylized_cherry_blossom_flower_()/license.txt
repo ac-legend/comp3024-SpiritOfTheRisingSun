@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stylized cherry blossom flower (桜の花)
+* source:	https://sketchfab.com/3d-models/stylized-cherry-blossom-flower-f29ad94b52a743d485a8568f1e81b9c4
+* author:	Voyage (https://sketchfab.com/vrsns_voyage)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stylized cherry blossom flower (桜の花)" (https://sketchfab.com/3d-models/stylized-cherry-blossom-flower-f29ad94b52a743d485a8568f1e81b9c4) by Voyage (https://sketchfab.com/vrsns_voyage) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

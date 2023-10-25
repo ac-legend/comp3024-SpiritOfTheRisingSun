@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mossy Stone Wall 01 Low
+* source:	https://sketchfab.com/3d-models/mossy-stone-wall-01-low-0e725a348d074cb4938e32c7b46ff9a7
+* author:	andrewkingdev (https://sketchfab.com/andrewkingdev)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mossy Stone Wall 01 Low" (https://sketchfab.com/3d-models/mossy-stone-wall-01-low-0e725a348d074cb4938e32c7b46ff9a7) by andrewkingdev (https://sketchfab.com/andrewkingdev) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

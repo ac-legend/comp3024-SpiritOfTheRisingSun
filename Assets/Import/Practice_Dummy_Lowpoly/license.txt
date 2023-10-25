@@ -1,0 +1,11 @@
+Model Information:
+* title:	Practice Dummy Lowpoly
+* source:	https://sketchfab.com/3d-models/practice-dummy-lowpoly-816d9b2b50524e6e803e9969505dcc9f
+* author:	Olena_Skrypka (https://sketchfab.com/Olena_Skrypka)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Practice Dummy Lowpoly" (https://sketchfab.com/3d-models/practice-dummy-lowpoly-816d9b2b50524e6e803e9969505dcc9f) by Olena_Skrypka (https://sketchfab.com/Olena_Skrypka) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

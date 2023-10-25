@@ -1,0 +1,11 @@
+Model Information:
+* title:	old japan house
+* source:	https://sketchfab.com/3d-models/old-japan-house-c37926908a5c43869f9d78c4d6b9de71
+* author:	datucarl (https://sketchfab.com/datucarl)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "old japan house" (https://sketchfab.com/3d-models/old-japan-house-c37926908a5c43869f9d78c4d6b9de71) by datucarl (https://sketchfab.com/datucarl) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
